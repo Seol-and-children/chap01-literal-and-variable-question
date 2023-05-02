@@ -8,8 +8,8 @@ public class Application2 {
 		float su = 50.6f;
 		float young = 70.8f;
 
-		float sum = kuk + su + young;
-		float avg = (kuk + su + young)/3 ;
+		long sum = (long) (kuk + su + young);
+		int avg = (int) (kuk + su + young)/3 ;
 
 		System.out.println("총점 :" + sum);
 		System.out.println("평균 :" + avg);
